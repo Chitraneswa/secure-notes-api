@@ -91,6 +91,7 @@ GET	/notes	Get all notes (optional ?search= param)	✅ Yes	N/A
 POST	/addNote	Create a new note	✅ Yes	{ "title": "string", "text": "string", "freeze": "true/false" }
 PUT	/updateNote	Update an existing note	✅ Yes	{ "id": "string", "title": "string", "text": "string", "freeze": "true/false" }
 DELETE	/deleteNote	Delete a note by ID	✅ Yes	{ "id": "string" }
+
 🔐 Authentication Flow
 
 Sign Up → /signup (creates user, returns token)
