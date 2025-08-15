@@ -35,6 +35,7 @@ Deployment: Docker
 Config: python-dotenv
 
 📂 Project Structure
+
 📦 notes-app/
 │── app.py # Main app entry point & routes
 │── auth.py # Auth routes: signup, login
@@ -48,6 +49,7 @@ Config: python-dotenv
 │── .env # Environment variables (ignored in Git)
 
 ⚙️ Installation & Setup
+
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/secure-notes-api.git
 cd secure-notes-api
