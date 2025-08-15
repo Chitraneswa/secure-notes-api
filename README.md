@@ -1,8 +1,7 @@
 # secure-notes-api
 📝 Secure Notes API
 
-A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and Docker.
-Designed with modular architecture, interactive API documentation, and best security practices for authentication and data storage.
+A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and Docker, offering full CRUD functionality for managing personal notes. Designed with a clean, modular architecture, it includes interactive Swagger API documentation, bcrypt password hashing, and robust authentication and data security practices for production-ready deployment.
 
 
 
