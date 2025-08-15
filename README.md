@@ -80,17 +80,22 @@ http://localhost:5000/apidocs
 
 Here you can test all endpoints interactively.
 
-🔌 API Endpoints
-Authentication
-Method	Endpoint	Description	Auth Required	Request Body
-POST	/signup	Register new user	❌ No	{ "username": "string", "password": "string" }
-POST	/login	Login and get JWT token	❌ No	{ "username": "string", "password": "string" }
-Notes
-Method	Endpoint	Description	Auth Required	Request Body
-GET	/notes	Get all notes (optional ?search= param)	✅ Yes	N/A
-POST	/addNote	Create a new note	✅ Yes	{ "title": "string", "text": "string", "freeze": "true/false" }
-PUT	/updateNote	Update an existing note	✅ Yes	{ "id": "string", "title": "string", "text": "string", "freeze": "true/false" }
-DELETE	/deleteNote	Delete a note by ID	✅ Yes	{ "id": "string" }
+## 🔌 API Endpoints
+
+### **Authentication**
+| Method | Endpoint   | Description            | Auth Required | Request Body |
+|--------|-----------|------------------------|---------------|--------------|
+| POST   | `/signup` | Register new user      | ❌ No         | `{ "username": "string", "password": "string" }` |
+| POST   | `/login`  | Login and get JWT token| ❌ No         | `{ "username": "string", "password": "string" }` |
+
+### **Notes**
+| Method | Endpoint       | Description                              | Auth Required | Request Body |
+|--------|---------------|------------------------------------------|---------------|--------------|
+| GET    | `/notes`      | Get all notes (optional `?search=` param) | ✅ Yes        | N/A |
+| POST   | `/addNote`    | Create a new note                         | ✅ Yes        | `{ "title": "string", "text": "string", "freeze": "true/false" }` |
+| PUT    | `/updateNote` | Update an existing note                   | ✅ Yes        | `{ "id": "string", "title": "string", "text": "string", "freeze": "true/false" }` |
+| DELETE | `/deleteNote` | Delete a note by ID                       | ✅ Yes        | `{ "id": "string" }` |
+
 
 🔐 Authentication Flow
 
