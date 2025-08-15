@@ -1,0 +1,7 @@
+Flask
+pymongo
+flasgger
+certifi
+flask-bcrypt
+python-dotenv
+PyJWT
