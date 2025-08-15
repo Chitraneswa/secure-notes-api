@@ -5,44 +5,32 @@ A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and 
 
 
 
+---
 
-🚀 Features
+## 🚀 Features
 
-🔐 JWT Authentication — Protects all sensitive endpoints.
+- 🔐 **JWT Authentication** — Protects all sensitive endpoints  
+- 🛡 **Secure Password Storage** — Uses bcrypt hashing (no plain-text passwords)  
+- 📜 **CRUD for Notes** — Create, read, update, delete personal notes  
+- 🔍 **Search Functionality** — Filter notes by title or content  
+- 📄 **Interactive API Docs** — Built-in Swagger UI via Flasgger  
+- 🐳 **Dockerized** — Easy deployment in any environment  
+- 🌱 **Environment Configurable** — All secrets stored in `.env`  
 
-🛡 Secure Password Storage — Uses bcrypt hashing.
+---
 
-📜 CRUD for Notes — Create, read, update, delete personal notes.
+## 🛠 Tech Stack
 
-🔍 Search Functionality — Filter notes by title or content.
+- **Backend:** Python 3.11, Flask  
+- **Database:** MongoDB Atlas (PyMongo)  
+- **Authentication:** JWT (PyJWT), bcrypt  
+- **Docs:** Swagger (Flasgger)  
+- **Deployment:** Docker  
+- **Config:** python-dotenv  
 
-📄 Interactive API Docs — Built-in Swagger UI via Flasgger.
+---
 
-🐳 Dockerized — Easy deployment in any environment.
-
-🌱 Environment Configurable — All secrets stored in .env.
-
-
-
-
-🛠 Tech Stack
-
-Backend: Python 3.11, Flask
-
-Database: MongoDB Atlas (PyMongo)
-
-Auth: JWT (PyJWT), bcrypt
-
-Docs: Swagger (Flasgger)
-
-Deployment: Docker
-
-Config: python-dotenv
-
-
-
-
-📂 Project Structure
+## 📂 Project Structure
 
 
 📦 notes-app/
