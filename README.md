@@ -4,6 +4,7 @@
 A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and Docker.
 Designed with modular architecture, interactive API documentation, and best security practices for authentication and data storage.
 
+
 🚀 Features
 
 🔐 JWT Authentication — Protects all sensitive endpoints.
@@ -20,6 +21,7 @@ Designed with modular architecture, interactive API documentation, and best secu
 
 🌱 Environment Configurable — All secrets stored in .env.
 
+
 🛠 Tech Stack
 
 Backend: Python 3.11, Flask
@@ -33,6 +35,7 @@ Docs: Swagger (Flasgger)
 Deployment: Docker
 
 Config: python-dotenv
+
 
 📂 Project Structure
 
@@ -57,6 +60,7 @@ Config: python-dotenv
 │── README.md # Documentation
 
 │── .env # Environment variables (ignored in Git)
+
 
 ⚙️ Installation & Setup
 
@@ -89,8 +93,6 @@ Once the server is running, open:
 
 http://localhost:5000/apidocs
 
-
-Here you can test all endpoints interactively.
 
 ## 🔌 API Endpoints
 
