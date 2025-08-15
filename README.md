@@ -58,7 +58,7 @@ A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and 
 
 
 
-⚙️ Installation & Setup
+## ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
 git clone https://github.com/yourusername/secure-notes-api.git
@@ -77,17 +77,17 @@ python app.py
 
 
 
-API will be available at:
+##API will be available at:
 
 http://localhost:5000
 
 
-🐳 Run with Docker
+## 🐳 Run with Docker
 docker build -t secure-notes-api .
 docker run -p 5000:5000 secure-notes-api
 
 
-📖 API Documentation
+## 📖 API Documentation
 
 Once the server is running, open:
 
@@ -112,7 +112,7 @@ http://localhost:5000/apidocs
 
 
 
-🔐 Authentication Flow
+## 🔐 Authentication Flow
 
 Sign Up → /signup (creates user, returns token)
 
