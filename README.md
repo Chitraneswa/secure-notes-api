@@ -36,16 +36,16 @@ Config: python-dotenv
 
 📂 Project Structure
 📦 notes-app/
-│── app.py           # Main app entry point & routes
-│── auth.py          # Auth routes: signup, login
-│── db.py            # Centralized MongoDB connection
-│── config.py        # Loads environment variables
-│── utilities.py     # Helper functions & JWT decorator
+│── app.py # Main app entry point & routes
+│── auth.py # Auth routes: signup, login
+│── db.py # Centralized MongoDB connection
+│── config.py # Loads environment variables
+│── utilities.py # Helper functions & JWT decorator
 │── requirements.txt # Python dependencies
-│── DockerFile       # Docker build instructions
-│── .gitignore       # Ignored files for Git
-│── README.md        # Documentation
-│── .env             # Environment variables (ignored in Git)
+│── DockerFile # Docker build instructions
+│── .gitignore # Ignored files for Git
+│── README.md # Documentation
+│── .env # Environment variables (ignored in Git)
 
 ⚙️ Installation & Setup
 1️⃣ Clone the Repository
