@@ -5,6 +5,7 @@ A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and 
 
 
 
+
 🚀 Features
 
 🔐 JWT Authentication — Protects all sensitive endpoints.
@@ -20,6 +21,7 @@ A secure, JWT-authenticated Notes Management API built with Flask, MongoDB, and 
 🐳 Dockerized — Easy deployment in any environment.
 
 🌱 Environment Configurable — All secrets stored in .env.
+
 
 
 
@@ -39,7 +41,9 @@ Config: python-dotenv
 
 
 
+
 📂 Project Structure
+
 
 📦 notes-app/
 
@@ -65,6 +69,7 @@ Config: python-dotenv
 
 
 
+
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
@@ -83,13 +88,16 @@ python app.py
 
 
 
+
 API will be available at:
 
 http://localhost:5000
 
+
 🐳 Run with Docker
 docker build -t secure-notes-api .
 docker run -p 5000:5000 secure-notes-api
+
 
 📖 API Documentation
 
@@ -113,6 +121,7 @@ http://localhost:5000/apidocs
 | POST   | `/addNote`    | Create a new note                         | ✅ Yes        | `{ "title": "string", "text": "string", "freeze": "true/false" }` |
 | PUT    | `/updateNote` | Update an existing note                   | ✅ Yes        | `{ "id": "string", "title": "string", "text": "string", "freeze": "true/false" }` |
 | DELETE | `/deleteNote` | Delete a note by ID                       | ✅ Yes        | `{ "id": "string" }` |
+
 
 
 🔐 Authentication Flow
